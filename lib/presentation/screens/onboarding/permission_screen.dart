@@ -125,7 +125,7 @@ class _PermissionScreenState extends ConsumerState<PermissionScreen> {
                     ),
                     const SizedBox(height: 10),
                     Text(
-                      'PulseIQ needs a few permissions to analyse your '
+                      'CuriousInSight needs a few permissions to analyse your '
                       'messages and notifications — processed privately on your device.',
                       style: AppTypography.body1.copyWith(
                         color: AppColors.textSecondaryDark,

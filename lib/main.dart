@@ -71,7 +71,7 @@ Future<void> main() async {
 
   runApp(
     const ProviderScope(
-      child: PulseIQApp(),
+      child: CuriousinsightApp(),
     ),
   );
 }

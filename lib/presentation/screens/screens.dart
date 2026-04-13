@@ -781,7 +781,7 @@ class SettingsScreen extends ConsumerWidget {
 
                   Center(
                     child: Text(
-                      'PulseIQ v1.0.0 · All data processed on-device',
+                      'CuriousInSight v1.0.0 · All data processed on-device',
                       style: AppTypography.caption.copyWith(
                         color: AppColors.textTertiaryDark,
                       ),

@@ -5,8 +5,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'core/router/app_router.dart';
 import 'core/constants/app_theme.dart';
 
-class PulseIQApp extends ConsumerWidget {
-  const PulseIQApp({super.key});
+class CuriousinsightApp extends ConsumerWidget {
+  const CuriousinsightApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -14,7 +14,7 @@ class PulseIQApp extends ConsumerWidget {
     final router = ref.watch(appRouterProvider);
 
     return MaterialApp.router(
-      title: 'PulseIQ',
+      title: 'CuriousInSight',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,

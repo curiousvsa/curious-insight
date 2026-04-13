@@ -3,13 +3,13 @@ class AppStrings {
   AppStrings._();
 
   // App
-  static const appName = 'PulseIQ';
+  static const appName = 'CuriousInSight';
   static const appTagline = 'On-Device Intelligence';
 
   // Onboarding
   static const onboardingTitle1 = 'Your finances,\nintelligently tracked';
   static const onboardingSubtitle1 =
-      'PulseIQ reads your SMS and notifications to '
+      'CuriousInSight reads your SMS and notifications to '
       'give you a complete picture of your spending — '
       'all processed privately on your device.';
   static const onboardingTitle2 = 'Smart categorization';
@@ -149,8 +149,8 @@ class AppConstants {
   AppConstants._();
 
   // WorkManager task names
-  static const kAnalyticsTask = 'pulseiq.analytics.aggregate';
-  static const kCleanupTask = 'pulseiq.data.cleanup';
+  static const kAnalyticsTask = 'curiousinsight.analytics.aggregate';
+  static const kCleanupTask = 'curiousinsight.data.cleanup';
 
   // SharedPreferences keys
   static const kHasSeenOnboarding = 'has_seen_onboarding';
@@ -159,14 +159,14 @@ class AppConstants {
   static const kDataRetentionDays = 'data_retention_days';
 
   // Platform channel names
-  static const kSmsChannel = 'com.pulseiq.app/sms';
-  static const kSmsEventChannel = 'com.pulseiq.app/sms_stream';
-  static const kNotifChannel = 'com.pulseiq.app/notifications';
-  static const kNotifEventChannel = 'com.pulseiq.app/notif_stream';
-  static const kSecurityChannel = 'com.pulseiq.app/security';
+  static const kSmsChannel = 'com.curiousinsight.app/sms';
+  static const kSmsEventChannel = 'com.curiousinsight.app/sms_stream';
+  static const kNotifChannel = 'com.curiousinsight.app/notifications';
+  static const kNotifEventChannel = 'com.curiousinsight.app/notif_stream';
+  static const kSecurityChannel = 'com.curiousinsight.app/security';
 
   // Database
-  static const kDbName = 'pulseiq.db';
+  static const kDbName = 'curiousinsight.db';
   static const kDbVersion = 1;
 
   // Default values
@@ -175,7 +175,7 @@ class AppConstants {
   static const kSmsHistoryLimit = 1000;
 
   // PDF
-  static const kPdfFilenamePrefix = 'PulseIQ_Report';
+  static const kPdfFilenamePrefix = 'Curiousinsight_Report';
 
   // Currency
   static const kCurrencySymbol = '₹';

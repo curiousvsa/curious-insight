@@ -136,7 +136,7 @@ class _DashboardHeader extends StatelessWidget {
           ),
           child: const Center(
             child: Text(
-              'P',
+              'VSA',
               style: TextStyle(
                 fontFamily: 'Sora',
                 fontSize: 18,
